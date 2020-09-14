@@ -1,4 +1,4 @@
-package mvn.main;
+package mvc.main;
 
 import mvc.app.Person;
 import mvc.app.PersonController;
