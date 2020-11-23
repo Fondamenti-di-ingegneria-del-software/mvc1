@@ -10,12 +10,12 @@ public class MvcDemo {
         //App initialization
         Person model = fetchPersonFromDatabase();
         PersonView view = new PersonView();
-        /*PersonController controller = new PersonController(model, view);*/
+        PersonController controller = new PersonController(model, view);
 
         //Execution scenario
-        /*controller.updateView();
+        controller.updateView();
         controller.setPersonFirstName("Mario");
-        controller.updateView();*/
+        controller.updateView();
     }
 
     private static Person fetchPersonFromDatabase(){
